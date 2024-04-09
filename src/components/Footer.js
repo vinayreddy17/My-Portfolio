@@ -3,13 +3,7 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 
 function Footer() {
-  const handleLinkedInClick = () => {
-    window.location.href = "https://www.linkedin.com/in/vinayamireddy";
-  };
-
-  const handleGithubClick = () => {
-    window.location.href = "https://github.com/vinayreddy17";
-  };
+ 
   return (
     <section>
     <div className="footer">
