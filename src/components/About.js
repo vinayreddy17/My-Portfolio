@@ -7,7 +7,7 @@ function About() {
     <section id='About'>
     <div className='Aboutme'>
        <h1>ABOUT ME</h1>
-       <img className='mern_image'src={mern}>
+       <img className='mern_image'src={mern} alt='mern image'>
        </img>
        <p>"Greetings! I'm Vinay, a passionate full-stack developer with a BTech degree from NIT Nagpur.<br /> I thrive on challenges and excel in the MERN stack. Let's innovate together and build something extraordinary!"</p>
 
