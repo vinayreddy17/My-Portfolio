@@ -1,0 +1,59 @@
+ /* In your App.css */
+body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* footer styles */
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    overflow: hidden;
+    margin:0%;
+    
+  }
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+    filter: invert(1);
+
+  }
+  
+  .footer p {
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .footer .icon-container {
+    float: right;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container img {
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer p {
+      float: none;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .footer .icon-container {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  
+    .icon-container img {
+      margin: 0 5px;
+    }
+  }
+  

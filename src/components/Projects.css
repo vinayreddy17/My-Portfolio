@@ -1,0 +1,94 @@
+#Projects{
+    background-color: #F9F9F9;
+}
+
+.project-container {
+    width: 75%;
+    margin: auto;
+    background-color: #F9F9F9;
+  }
+
+  .project-container h1{
+    text-align: center;
+  }
+  
+  .project-slider {
+    margin-top: 20px;
+    background-color: #F9F9F9;
+  }
+  
+  .project-card {
+    background-color: #F9F9F9;
+    height: 450px;
+    color: #000000;
+  
+
+  }
+  
+  .project-image {
+    height: 56px;
+    background-color: #4f46e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .project-img {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 16px;
+  }
+  
+  .project-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .project-review {
+    text-align: center;
+  }
+  
+  .project-button {
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+  
+
+  /* Previous arrow */
+.slick-prev:before {
+    color: black; /* Change color to black */
+    font-size: 24px; /* Increase font size */
+  }
+  
+  /* Next arrow */
+  .slick-next:before {
+    color: black; /* Change color to black */
+    font-size: 24px; /* Increase font size */
+  }
+
+  
+  /* Margin for the cards inside the slider */
+/* .slick-slide {
+    margin: 0 10px; 
+    border: 1px solid #e5e7eb;
+  } */
+  .project-card {
+    margin-left: 100px; /* Adjust the margin as needed */
+    border: 1px solid #366cd8; /* Add a border with the desired color */
+  }
+  
+ 

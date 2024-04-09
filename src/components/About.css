@@ -1,0 +1,27 @@
+.mern_image{
+    width:400px;
+    height:400px;
+    border-radius: 10px;
+   margin:auto;
+   display: block;
+}
+.Aboutme {
+    width: 75%;
+    margin: auto;
+  }
+
+  .Aboutme h1{
+    text-align: center;
+
+  }
+
+  .Aboutme img{
+    text-align: center;
+    margin: auto;
+
+  }
+  
+  .Aboutme p{
+    text-align: center;
+
+  }

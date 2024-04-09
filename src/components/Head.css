@@ -1,0 +1,33 @@
+.profilePhoto{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.head{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.hand{
+    
+    height: 1.5rem;
+}
+
+.headicon {
+    margin-top: 10px;
+   margin-left: 5px;
+   
+    cursor: pointer;
+    height: 2rem;
+    
+
+  }

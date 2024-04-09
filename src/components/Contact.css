@@ -1,0 +1,52 @@
+.location_icon{
+    height :4rem;
+
+}
+.mail_icon{
+    height: 4rem;
+   margin-top: 20px;
+}
+
+.details{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+   
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    
+}
+.title{
+    text-align: center;
+}
+
+.location_text{
+    margin-left: 30px;
+}
+
+.contact{
+    padding:80px;
+}
+
+.title h1{
+    /* color:blue; */
+    font-size:xx-large ;
+
+}
+.title h3{
+    font-size: x-large;
+}
